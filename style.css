@@ -1,25 +1,15 @@
 :root{
-    --main-c:#9D48FF;
-    --border-r:.2rem;
+    --main-c:#4DFF53;
+    --border-r:1.2rem;
     color:#fff;
     font-weight:lighter;
     font-size: 1.5rem;
+    text-align:center;
 }
-.image-container {
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    margin-top: 2ch;
-}
-body {
-    background-color: #000000;
-}
-
-
 /* Estilos para el formulario de búsqueda moderno */
 .modern-search-form {
     text-align: center;
-    margin-top: 5ch;
+    margin-top: -6ch;
 }
 
 .search-input {
@@ -27,15 +17,15 @@ body {
     padding: 1rem;
     border: none;
     border-radius: 20px;
-    box-shadow: 0px 2px 4px rgba(206, 28, 28, 0.1);
+    box-shadow: 0px 2px 4px rgba(195, 215, 40, 0.1);
     font-size: 1.2rem;
 }
 
 .search-button {
     width: 25%;
     padding: 1rem;
-    background-color: #9D48FF;
-    color: white;
+    background-color: #4DFF53;
+    color: rgb(0, 0, 0);
     border: none;
     border-radius: 20px;
     font-size: 1.2rem;
@@ -44,7 +34,7 @@ body {
 }
 
 .search-button:hover {
-    background-color: #8032E6;
+    background-color: #9D48FF;
 }
 
 
@@ -60,21 +50,13 @@ html *{
 p {
     font-size: 1.2rem;
     font-weight:normal;
-    margin: 0;
     text-align:center;
-    text-indent: 0.5em;
     line-height: 1.5;
-    color: #fff;
+    color: #c6c6c6;
 }
 a{
     text-decoration: none;
-    color: #ffffff;
-    font-weight:lighter;
-    font-size: 1.2rem;
-}
-ul, li{
-    list-style: none;
-    color: #01C615;
+    color: #c6c6c6;
     font-weight:lighter;
     font-size: 1.2rem;
 }
@@ -82,14 +64,14 @@ ul, li{
     padding: 0rem 0;
     margin-left: 4rem;
     text-align:center;
-    margin-top: 3ch;
+    margin-top: 30ch;
 }
 .cta-a{
-    color:#fff;
+    color:#000000;
     font-weight: bold;
     font-size: 1.2rem;
     background-color: var(--main-c);
-    padding: 1rem 5rem;
+    padding: 0.7rem 2rem;
     border-radius:10ch;
     margin-right: 4rem;
 }
@@ -126,19 +108,20 @@ h3 {
 }
 /** Hero section **/
 .hero-section{
-    height: 100vh;
+    height: 80vh;
     background: url(/Img/Pareja\ gym.png);
     background-position: center -50px;
     background-repeat: no-repeat;
     background-size:contain;
     display:flex;
 }
-.wrap-hero-section {
-    position: relative;
-    background-image: url('ruta-a-tu-imagen-de-fondo.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 100vh; /* Ajusta esto según tus necesidades */
+
+.wrap-hero-section{
+    height: 100vh;
+    color: #ebebeb;
+    text-align: center;
+    margin-left: 10ch;
+    padding: 0%;
 }
 
 .overlay {
@@ -147,7 +130,6 @@ h3 {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Opacidad del fondo */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -155,6 +137,7 @@ h3 {
     padding: 20px;
     color: white;
     text-align: center;
+    margin-top: -20ch;
 }
 
 .overlay h1 {
@@ -168,15 +151,9 @@ h3 {
 }
 
 .wrap-cta {
-    margin-top: 20px;
+    margin-top: 120px;
 }
 
-.wrap-hero-section{
-min-width: 600px;
-color: #fff;
-padding: 50px;
-text-align: center;
-}
 /** Logo Brand Section **/
 .section{
     margin: 1rem 0;
@@ -203,14 +180,6 @@ text-align: center;
     justify-content: center;
     margin: 3rem 3rem;
 }
-/** Servicios Section **/
-.item-servicios-section {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    text-align: left;
-    margin-bottom: 20px;
-}
 /* Cambia la fuente y el color para el título del servicio */
 .servicio-titulo {
     font-family: 'NuevaFuente', sans-serif; /* Cambia 'NuevaFuente' por la fuente deseada */
@@ -219,39 +188,12 @@ text-align: center;
     font-size: 1.2rem;
     justify-content: center;
 }
-/* Cambia la fuente y el color para la descripción del servicio */
-.servicio-descripcion {
-    font-family: 'OtraFuente', sans-serif; /* Cambia 'OtraFuente' por la fuente deseada */
-    color: #ffffff; /* Cambia #0000FF por el color deseado */
-    font-size: 1rem;
-    justify-content: center;
-    line-height: 1.2;
-    font-weight: lighter;
-}
-.imagen-contenedor {
-    display: flex;
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente si lo deseas */
-    height: 1%; /* O ajusta la altura deseada */
-}
---
-/** Two Columns Section **/
-.wrap-two-column{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1800px;
-    margin: 0 auto;
-    gap: 2rem;
-    text-align: center;
-}
 .wrap-text-column{
     display:grid;
 }
+
 body {
-    background-color: #170000;
-    color: #9D48FF;
-    padding: 2%;
-    color: #4DFF53;
+    background-color: #000000;
 }
 
 h2 {
@@ -260,9 +202,7 @@ h2 {
     color: #9D48FF;
     margin-bottom: 0rem;
 }
-.form-group {
-    text-align:left;
-}
+
 label {
     font-weight: bold;
     display: block;
@@ -308,7 +248,7 @@ textarea.form-control {
     justify-content: space-between;
     align-items: center;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: auto;
 }
 .wrap-social-logos ul,
 .menu-footer-section ul {
@@ -323,15 +263,16 @@ textarea.form-control {
     width: 50px; height: auto;
     border-radius: 2ch;
 }
-.menu-footer-section a {
+.menu-footer-section {
     text-decoration: none;
-    color:  #4DFF53;
+    color:  #ffffff;
     font-weight: lighter;
     font-size:1.2rem;
     transition: color 0.100s ease-in-out;
 }
+
 .menu-footer-section a:hover {
-    color: #9D48FF;
+    color: #4DFF53;
 }
 .footer-creds {
     text-align: center;
@@ -361,12 +302,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(61, 61, 61);
 }
 
 .formulario h2 {
     font-size: 250%;
     margin-bottom: 20px;
-    color: #9D48FF;
+    color: #ffffff;
 }
 
 .form-group {
@@ -394,8 +336,8 @@ body {
 .cta-button {
     margin-top: 5ch;
     display: inline-block;
-    background-color: #9D48FF;
-    color: #ffffff;
+    background-color: #4DFF53;
+    color: #000000;
     padding: 10px 350px;
     border: none;
     border-radius: 30px;
@@ -406,4 +348,15 @@ body {
 
 .cta-button:hover {
     background-color: #8c40e3;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    font-size: 24px;
+    line-height: 1.5;
+    color: #aaaaaa;
 }
