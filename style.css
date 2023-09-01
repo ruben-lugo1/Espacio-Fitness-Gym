@@ -67,11 +67,11 @@ a{
     margin-top: 30ch;
 }
 .cta-a{
-    color:#000000;
+    color:#505050;
     font-weight: bold;
     font-size: 1.2rem;
     background-color: var(--main-c);
-    padding: 0.7rem 2rem;
+    padding: 0.35rem 2rem;
     border-radius:10ch;
     margin-right: 4rem;
 }
@@ -151,7 +151,7 @@ h3 {
 }
 
 .wrap-cta {
-    margin-top: 120px;
+    margin-top: 70px;
 }
 
 /** Logo Brand Section **/
