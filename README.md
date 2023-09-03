@@ -1,6 +1,6 @@
 <h1>¡Bienvenido al repositorio del sitio web de Espacio Fitness!</h1>
 
-Puedes acceder al sitio web en línea en: [https://tourmaline-heliotrope-8babee.netlify.app/]
+Puedes acceder al sitio web en línea en: https://flourishing-platypus-47d227.netlify.app/
 
 ## Descripción
 
