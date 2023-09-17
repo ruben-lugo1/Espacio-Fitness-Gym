@@ -4,7 +4,7 @@ Puedes acceder al sitio web en línea en: https://flourishing-platypus-47d227.ne
 
 ## Descripción
 
-Este es el código fuente del sitio web de Espacio Fitness, un gimnasio moderno y equipado para ayudarte a alcanzar tus objetivos de fitness. El sitio web presenta información sobre nuestros servicios, instalaciones y más.
+Este es el sitio web del Gimnasio Espacio Fitness, un gimnasio moderno y equipado para ayudarte a alcanzar tus objetivos en fitness. El sitio web presenta información sobre nuestros servicios, instalaciones y más.
 
 ## Capturas de Pantalla
 
