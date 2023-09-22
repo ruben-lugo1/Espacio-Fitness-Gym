@@ -8,8 +8,7 @@ Este es el sitio web del Gimnasio Espacio Fitness, un gimnasio moderno y equipad
 
 ## Capturas de Pantalla
 
-Captura de Pantalla 1.png
-Captura de Pantalla 2.png
+<img src="https://raw.githubusercontent.com/ruben-lugo1/Website-EspacioFitness/main/Img%20Readme.jpg">
 
 ## Características
 
