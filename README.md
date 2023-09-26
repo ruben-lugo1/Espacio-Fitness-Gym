@@ -19,8 +19,11 @@ Este es el sitio web del Gimnasio Espacio Fitness, un gimnasio moderno y equipad
 
 ## Tecnologías Utilizadas
 
-- HTML
-- CSS
+<div aline="left">
+<div>
+<img src="https://img.icons8.com/color/1x/html-5.png" title="HTML" alt="HTML" width="50" height="50"/>
+<img src="https://img.icons8.com/color/1x/css3.png" title="CSS" alt="CSS" width="50" height="50"/>
+</div>
 
 ## Cómo Usar
 
